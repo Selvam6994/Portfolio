@@ -47,7 +47,7 @@ function About() {
                            <p>
                              You can read more about my biography, experience, skills, education and much more in the PDF attached bellow
                         </p><br/>
-                        <a id='download' href='../resume/my resume.pdf' download><b>My Resume.pdf</b></a>
+                        <a id='download' href='../resume/SELVAKUMAR Resume.pdf' download><b>My Resume.pdf</b></a>
                     </div>
                 </div>
 
