@@ -2,7 +2,9 @@ import React from 'react'
 import { FaLocationArrow } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaPhoneAlt } from 'react-icons/fa';
+import { FaGithubAlt } from 'react-icons/fa';
 
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Contact() {
     return (
@@ -41,7 +43,13 @@ function Contact() {
                                 <p>+91 9790905989</p>
                             </div>
                             <br />
+                        
                         </div>
+                        <div className="social-links">
+                        <a href="https://github.com/Selvam6994" target="_blank" className="github"><FaGithubAlt/></a>
+                        <a href="https://www.linkedin.com/in/s-selvam-17b141240/" target="_blank" className="linkidin"><FaLinkedinIn/></a>
+                        {/* <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a> */}
+                    </div>
 
                     </div>
                 </div>

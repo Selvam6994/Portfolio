@@ -2,6 +2,9 @@ import React from 'react';
 
 import Typewriter from 'typewriter-effect';
 import { FaBars } from 'react-icons/fa';
+
+// import { FaBars } from 'react-icons/fa';
+// import { FaBars } from 'react-icons/fa';
 import Dropdown from 'react-bootstrap/Dropdown';
 function Home() {
     return (
@@ -33,11 +36,7 @@ function Home() {
                             loop: true,
                         }}
                     /></span></p>
-                    <div className="social-links">
-                        <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                        <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-                        <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
-                    </div>
+                    
                 </div>
             </section>
         </>
